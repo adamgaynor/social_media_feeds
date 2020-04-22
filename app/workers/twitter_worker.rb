@@ -5,7 +5,7 @@ class TwitterWorker < SocialMediaFeedWorker
     'https://takehome.io/twitter'
   end
 
-  def file_path
-    "#{Rails.root}/tmp/twitter_response.json"
+  def cache_key
+    'twitter'
   end
 end

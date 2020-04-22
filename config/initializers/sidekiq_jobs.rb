@@ -1,1 +1,3 @@
 TwitterWorker.perform_async
+FacebookWorker.perform_async
+InstagramWorker.perform_async
